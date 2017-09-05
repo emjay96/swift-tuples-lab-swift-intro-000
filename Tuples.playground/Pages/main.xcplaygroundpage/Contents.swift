@@ -15,7 +15,7 @@
  ### 1. Create a tuple to represent a person! The tuple should have a person's name in the first field and their age in the second field. Define the tuple as a variable named `person`.
  */
 // write your code here
-
+var person: (name: String,age: Int) = ("Bill", 30)
 
 
 
@@ -28,7 +28,7 @@
  */
 // write your code here
 
-
+print("\(person.name) is \(person.age) years old.")
 
 
 
@@ -40,7 +40,8 @@
  */
 // write your code here
 
-
+person.age = person.age+1
+print(person.age)
 
 
 
@@ -53,7 +54,7 @@
 // write your code here
 
 
-
+print("Happy \(person.age) birthday, \(person.name)")
 
 
 
@@ -64,7 +65,7 @@
  */
 // write your code here
 
-
+var anotherPerson: (name: String, age: Int) = (name: "Jane",age: 19)
 
 
 
@@ -76,7 +77,7 @@
  */
 // write your code here
 
-
+print("\(anotherPerson.name) is \(anotherPerson.age) years old.")
 
 
 
@@ -86,7 +87,8 @@
  ### 7. It is `someone`'s birthday! Increment `someone`'s age by one year.
  */
 // write your code here
-
+anotherPerson.age += 1
+print(anotherPerson.age)
 
 
 
@@ -98,7 +100,7 @@
  */
 // write your code here
 
-
+print("Happy \(anotherPerson.age) birthday, \(anotherPerson.name)")
 
 
 
@@ -110,7 +112,7 @@
  */
 // write your code here
 
-
+let human: (name: String, age: Int)
 
 
 
@@ -120,7 +122,7 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
-
+//Yes, because it wasn't initialized with a value.
 
 
 
